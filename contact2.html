@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizontal Scroll Circles</title>
+  <style>
+    /* CONTACT SECTION STYLES */
+.contact-section {
+  background: linear-gradient(rgba(225, 95, 14, 0.5), rgba(5, 187, 35, 0.5)),
+              url('mountain-bg.jpg') center/cover no-repeat;
+  color: #1443eb;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #0d26e5;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1 1 250px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  backdrop-filter: blur(5px);
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #1e17e1;
+}
+
+.contact-info a {
+  color: #186602;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1 1 350px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+}
+
+.contact-form .btn {
+  margin-top: 20px;
+  background-color: #3b7a57;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+  background-color: #2f6044;
+}
+
+
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>Have questions about our trails or guided hikes? Reach out — we’re happy to help you plan your next adventure!</p>
+
+    <div class="contact-content">
+     
+      <div class="contact-info">
+        <h3>Trail Headquarters</h3>
+        <p><strong>Owner:</strong> ABCD</p>
+        <p><strong>Email:</strong> <a href="TheAcentAtlas@mountaintrails.com">"TheAcentAtlas@mountaintrails.com"</a></p>
+        <p><strong>Phone:</strong> <a href="tel:2354546578">67867869780678</a></p>
+        <p><strong>Address:</strong><br>
+          Mountain Trails HQ<br>
+          2450 Summit Ridge Road<br>
+          Bbtygy, CO 80302, India
+        </p>
+        <p>Open: Monday – Saturday, 8:00 AM – 9:00 PM</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="#" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      
+
+</body>
+</html>
+
+
+<!-- <p>ᴛʜᴇ ᴀsᴄᴇɴᴛ ᴀᴛʟᴀs</p> -->
+
+
+</body>
+</html>
